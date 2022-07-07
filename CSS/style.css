@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* background-color: #E5E7E9; */
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("../Images/zoo.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    color: #DFFF00;
+    padding-block: 1rem;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.social_icons{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    }
+.social_icons i{
+    font-size: 1.3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #DFFF00;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: #566573;
+    transition: all .5s linear;
+}
+.social_icons i:hover{
+    background-color:#DFFF00;
+    color: #566573;
+}
+.clr{
+    color: red;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+}
+#column_one,#column_two,#column_three,#column_four{
+    width: 25%;
+    transition: all .3s linear;
+}
+#column_one img{
+    width: 98%;
+    margin-inline:.2rem;
+    border: 1px solid #DFFF00;
+}
+#column_two img{
+    width: 98%;
+    margin-inline:.2rem;
+    border: 1px solid #DFFF00;
+}
+#column_three img{
+    width: 98%;
+    margin-inline:.2rem;
+    border: 1px solid #DFFF00;
+}
+#column_four img{
+    width: 98%;
+    margin-inline:.2rem;
+    border: 1px solid #DFFF00;
+}
